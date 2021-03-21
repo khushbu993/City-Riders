@@ -2,20 +2,23 @@ import React from 'react';
 import './Home.css';
 import backgroundImage from '../../images/Bg.png';
 import Header from '../Header/Header';
-import Frame from '../Frame/Frame';
+import Rides from '../Rides/Rides';
+
+
+
 
 const Home = () => {
     const bgStyle = {
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        width: '100vw',
-        height: '120vh'
+        width: '100%',
+        height: '100vh'
     }
     return (
         <div style={bgStyle} className="city-rider">
             <Header></Header>
-            <Frame></Frame>
+            <Rides></Rides>
         </div>
     );
 };

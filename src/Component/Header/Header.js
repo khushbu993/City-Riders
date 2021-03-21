@@ -24,7 +24,7 @@ const Header = () => {
                                 <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/destination">Destination</Link>
+                                <Link className="nav-link" to="/search">Destination</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/blog">Blog</Link>
@@ -34,7 +34,9 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <button type="button" className="btn btn-outline-danger">Login</button>
+                    <Link to="/search">
+                        <button type="button" className="btn btn-outline-danger">Login</button>
+                    </Link>
                 </div>
             </nav>
         </div>

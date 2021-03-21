@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "User": "tkopje0",
+    "email": "jpaute0@nasa.gov",
+    "locations": "Malibag",
+    "rent": "$802"
+  },
+  {
+    "id": 2,
+    "User": "jbashford1",
+    "email": "tyarrington1@eepurl.com",
+    "locations": "Dhanmondi",
+    "rent": "$964"
+  },
+  {
+    "id": 3,
+    "User": "bkillelea2",
+    "email": "alarkins2@sciencedirect.com",
+    "locations": "Mirpur-10",
+    "rent": "$287.84"
+  },
+  {
+    "id": 4,
+    "User": "jcurrin3",
+    "email": "bglitherow3@clickbank.net",
+    "locations": "Mohammadpur",
+    "rent": "$155"
+  },
+  {
+    "id": 5,
+    "User": "ischall4",
+    "email": "jaxelbey4@marketwatch.com",
+    "locations": "Abdullahpur",
+    "rent": "$157"
+  },
+  {
+    "id": 6,
+    "User": "zwolfarth5",
+    "email": "kluto5@psu.edu",
+    "locations": "Uttara",
+    "rent": "$280"
+  },
+  {
+    "id": 7,
+    "User": "arookes6",
+    "email": "okensley6@miibeian.gov.cn",
+    "locations": "Sodorghat",
+    "rent": "$833"
+  },
+  {
+    "id": 8,
+    "User": "pslayford7",
+    "email": "cfegan7@forbes.com",
+    "locations": "Gabtoli",
+    "rent": "$893"
+  },
+  {
+    "id": 9,
+    "User": "aboij8",
+    "email": "gbeacon8@hp.com",
+    "locations": "Demra",
+    "rent": "$157"
+  },
+  {
+    "id": 10,
+    "User": "nrennard9",
+    "email": "fguiducci9@biblegateway.com",
+    "locations": "Purbachal City",
+    "rent": "$681"
+  },
+  {
+    "id": 11,
+    "User": "stwellsa",
+    "email": "rygoa@spiegel.de",
+    "locations": "Motijheel",
+    "rent": "$556"
+  },
+  {
+    "id": 12,
+    "User": "mgoshawkb",
+    "email": "lgosalvezb@so-net.ne.jp",
+    "locations": "Shahbag",
+    "rent": "$402"
+  },
+  {
+    "id": 13,
+    "User": "econiamc",
+    "email": "rdeguisec@wsj.com",
+    "locations": "Rampura",
+    "rent": "$316"
+  },
+  {
+    "id": 14,
+    "User": "gmarcroftd",
+    "email": "dvittorid@stanford.edu",
+    "locations": "Mirpur-01",
+    "rent": "$696"
+  },
+  {
+    "id": 15,
+    "User": "dbarke",
+    "email": "abryerse@blogger.com",
+    "locations": "Asadgate",
+    "rent": "$488"
+  },
+  {
+    "id": 16,
+    "User": "pianizzif",
+    "email": "lheinzelf@independent.co.uk",
+    "locations": "New Market",
+    "rent": "$68"
+  },
+  {
+    "id": 17,
+    "User": "ktompsettg",
+    "email": "msahnowg@shinystat.com",
+    "locations": "Science Laboratory",
+    "rent": "$530"
+  },
+  {
+    "id": 18,
+    "User": "mspellerh",
+    "email": "dbellwoodh@vinaora.com",
+    "locations": "Banglamotor",
+    "rent": "$83"
+  },
+  {
+    "id": 19,
+    "User": "iblinkhorni",
+    "email": "rrutherforthi@bloglines.com",
+    "locations": "Farmgate",
+    "rent": "$812"
+  },
+  {
+    "id": 20,
+    "User": "lelanj",
+    "email": "coverelj@craigslist.org",
+    "locations": "Shantinagar",
+    "rent": "$414"
+  }
+]

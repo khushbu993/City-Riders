@@ -1,71 +1,97 @@
-# Getting Started with Create React App
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+  <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#project-name">Project Name</a></li>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation and Setup Instructions</a></li>
+      </ul>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- GETTING STARTED -->
+## Getting Started
 
-In the project directory, you can run:
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-### `npm start`
+## Project Name
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1>City Riders</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Build With
+An application used to load data from an API, built with 
+* [React](https://reactjs.org/docs/getting-started.html)
+* [ReactRouterWeb](https://reactrouter.com/web/guides/quick-start) 
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+* [FontAwesome](https://fontawesome.com/v4.7.0/get-started/)
+* [JavaScript]
+* [HTML&CSS]
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is an example of how to list things you need to use the software and how to install them.
 
-### `npm run build`
+* Step 1: Download Node.js Installer. In a web browser, navigate to https://nodejs.org/en/download/. Click the Windows Installer button to download the latest default version. At the time this article was written, version 10.16.0-x64 was the latest version. The Node.js installer includes the NPM package manager.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Step 2: Install Node.js and NPM from Browser. Once the installer finishes downloading, launch it & complete the installation    process.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Step 3: Verify Installation
+  Open a command prompt (or PowerShell), and enter the following:
+     ```sh
+    node –v
+    ```
+The system should display the Node.js version installed on your system. You can do the same for NPM:
+     ```sh
+    npm –v
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation and Setup Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Installation:
+1. Get a free API Key at (https://api.mocki.io/v1/9a2657cf)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/Porgramming-Hero-web-course/react-auth-khushbu993
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. To Run Test Suite:  
+    ```sh
+    npm test 
+    ```
+5. To Start Server:
+    ```sh
+    npm start
+    ```
+6. To Visit App:
+    ```sh
+    localhost:3000/
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- LICENSE -->
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-## Learn More
+<!-- CONTACT -->
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Khushbu Islam Misbah - [https://www.gmail.com](https://www.gmail.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Repo Link: [https://github.com/Porgramming-Hero-web-course/react-auth-khushbu993](https://github.com/Porgramming-Hero-web-course/react-auth-khushbu993)
 
-### Code Splitting
+Project live site Link: []()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-auth-khushbu993

@@ -1,0 +1,16 @@
+.ride-card {
+    width: 220px;
+    height: 200px;
+    margin-top: 90px;
+}
+
+.ride-card img {
+   width: 200px;
+   height: 120px;
+   margin-top: 10px;
+   margin-left: 8px;
+}
+.ride-card h5{
+    color: #0ebfec;
+    font-weight: 700;
+}

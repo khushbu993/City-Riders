@@ -1,7 +1,6 @@
-.container{
-    border-top: 1.5px solid lightgray;
+.search{
+    border-top: 1px solid lightgray;
     margin-top: 10px;
-    margin-bottom: 20px;
 }
 .search-form{
     margin-top: 20px;
