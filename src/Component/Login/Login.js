@@ -1,14 +1,14 @@
-import React, { useContext, useState } from 'react';
-import './Login.css';
-import Header from '../Header/Header';
-import { Link, useHistory, useLocation } from 'react-router-dom';
-import singleLineBorder from '../../images/single-line-border.png';
-import github from '../../images/github.png';
-import google from '../../images/google.png';
 import firebase from "firebase/app";
 import "firebase/auth";
-import firebaseConfig from "./firebase.config";
+import React, { useContext, useState } from 'react';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import { UserContext } from '../../App';
+import github from '../../images/github.png';
+import google from '../../images/google.png';
+import singleLineBorder from '../../images/single-line-border.png';
+import Header from '../Header/Header';
+import firebaseConfig from "./firebase.config";
+import './Login.css';
 
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
@@ -27,6 +27,7 @@ const Login = () => {
         isSignedIn: false,
         name: '',
         email: '',
+        photo: '',
         password: '',
         error: '',
         success: false
@@ -37,8 +38,8 @@ const Login = () => {
         const googleProvider = new firebase.auth.GoogleAuthProvider();
         firebase.auth().signInWithPopup(googleProvider)
             .then((result) => {
-                const { displayName, email } = result.user;
-                const signedInUser = { name: displayName, email }
+                const { displayName, email, photoURL } = result.user;
+                const signedInUser = { name: displayName, email, photo: photoURL }
                 setLoggedInUser(signedInUser);
                 history.replace(from);
                 console.log(signedInUser);

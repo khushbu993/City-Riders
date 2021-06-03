@@ -1,10 +1,12 @@
-import React from 'react';
-import './Header.css';
-import logo from '../../images/logo.png';
-import logoImage from '../../images/CityRidersLogo.png';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { UserContext } from '../../App';
+import logoImage from '../../images/CityRidersLogo.png';
+import logo from '../../images/logo.png';
+import './Header.css';
 
 const Header = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     return (
         <div className="header-section">
             <nav className="navbar navbar-expand-lg navbar-light">
@@ -34,9 +36,21 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
-                    <Link to="/search">
-                        <button type="button" className="btn btn-outline-danger">Login</button>
-                    </Link>
+                    {
+                        loggedInUser.email ?
+                            <Link to="/search">{loggedInUser.name}</Link>
+                            :
+                            <Link to="/search">
+                                <button type="button" className="btn btn-outline-danger">Log In</button>
+                            </Link>
+                    }
+                    {
+                        loggedInUser.email ?
+                            <Link to="/search">
+                                <button onClick={() => setLoggedInUser({})} type="button" className="btn btn-outline-danger">Log Out</button>
+                            </Link>
+                            : ''
+                    }
                 </div>
             </nav>
         </div>
